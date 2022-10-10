@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body {
+    background-color:rgb(19,24,43);
+}
+
+#subMenu{
+    padding: 10px 30px;
+    height:120px;
+    /* display: flex; */
+    background-color: rgb(27,31,56)
+        /* background-image: url(Images/header_bg.jpg); */
+}
+
+#subMenu img {
+    height: 110px;
+    padding-left: 40%;
+    float: left;
+}
+
+.sign{
+    float: right;
+}
+
+.sign-in-up{
+    float: left;
+}
+.sign-in-up a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#subMenu a
+{
+    /* display:inline-block;
+    height: 40px;
+    padding:auto;
+    font-size:20px;
+    */
+    text-decoration:none;
+
+
+}
+
+.sign-in-up, .op{
+    margin: 10px 10px 20px 0;
+}
+.sign-in-up a, li a{
+    padding:5px 20px;
+    /* margin: 10px 0; */
+    /* margin-left: 70px; */
+    line-height: 100%;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+
+    background-color: rgb(62,197,232);
+    border-radius: 20px;
+}
+
+
+.search-container button {
+    /* float: right; */
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /* margin-top: 8px; */
+    /* margin-right: 16px; */
+    height: 40px;
+    background: rgb(59,200,230);
+    font-size: 17px;
+    border: none;
+    margin: 0;
+    border-radius: 0px 5px 5px 0 ;
+
+
+    /* cursor: pointer; */
+}
+input[type=text]{
+    float:left;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius:  5px 0px 0px 5px;
+    padding-left: 20px;
+}
+
+.search-container button:hover {
+    background: white;
+}
+
+
+/*  .menu-slide{
+    background-image: url(Images/Untitled.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+
+/* css cho thanh menu */
+
+ul{
+    /* background-color:rgba(14, 14, 14, 0.648); */
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 5px 30px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+ul li a{
+
+    margin: 20px;
+    font-weight: bold;
+
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+}
+/*  */
+
+
+/* css cho slider */
+.slide img{
+    height: 300px;
+    width: 100%;
+}
+#slideshow {
+    overflow: hidden;
+    height: 330px;
+    width: 728px;
+    margin: 0 auto;
+}
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 10s ease infinite;
+}
+.slide {
+    float: left;
+    height: 300px;
+    width: 728px;
+}
+@-webkit-keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+    30% {
+        margin-left: -728px;
+    }
+    50% {
+        margin-left: -728px;
+    }
+    60% {
+        margin-left: -1456px;
+    }
+    80% {
+        margin-left: -1456px;
+    }
+}
+/*  */
+
+h2 {
+    color: rgb(30,123,140);
+    margin: 0;
+}
+
+.left{
+    float: left;
+    padding-right: 20px;
+    border-right: 2px solid gray;
+    width: 30%;
+}
+
+.left img{
+    width: 100%;
+}
+
+.right{
+    float: right;
+    width: 70%;
+}
+
+.container{
+    /*padding: 50px;*/
+    padding: 0;
+}
+
+
+/* css cho phần giới thiệu trong AboutUs.html */
+.intro{
+    padding: 20px;
+}
+.intro p{
+    /*lui dau dong*/
+    text-indent: 40px;
+    color: white;
+}
+.intro a{
+    text-decoration: none;
+    color: Blue;
+}
+
+
+/* thiết lập style cho thẻ a */
+ .pagination a {
+  
+   float: left;
+   padding: 8px 16px;
+   text-decoration: none;
+   transition: background-color .3s;
+   border-top: 0.5px white solid;
+   border-bottom: 0.5px white solid;
+   margin-bottom: 20px;
+ }
+/* thiết lập style cho class active */
+ .pagination a.active {
+   background-color: white;
+   color: black !important;
+ }
+/* thêm màu nền khi người dùng hover vào class không active */
+ .pagination a:hover:not(.active) {
+   background-color: #ddd;
+ }
+ 
+
+
